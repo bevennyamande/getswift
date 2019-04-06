@@ -1,11 +1,17 @@
 import requests
 
-class GetSwift(object):
+class GetSwift():
+    """
+    Python wrapper for the getswift api
 
-    def __init__(self):
-        pass
+    """
+
+    def __init__(self, merchant_id):
+        """ Initiate object with merchant ip from getswift  """
+        self.merchant_id = mechant_id
 
     def book_delivery(self):
+        """Get the book delivery"""
         pass
 
     def get_quote(self):
